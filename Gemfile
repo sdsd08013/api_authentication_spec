@@ -16,6 +16,8 @@ gem 'browserify-rails'
 gem 'devise'
 
 group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'byebug', platform: :mri
 end
 
